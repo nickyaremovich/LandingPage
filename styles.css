@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+html, body, nav, footer {
+    margin: 0px;
+}
+
+.nav {
+    display: flex;
+    background-color: #1f2937;
+}
+
+.header-logo {
+    color: white;
+}
+
+.header-list {
+    margin-left: auto;
+    display: inline-flex;
+}
+
+
+.img-card {
+    display: flex;
+    border: solid blue 3px;
+    
+}
+
+.quote {
+    display: flex;
+    background-color: #e5e7eb;
+}
+
+
+
+
+
+footer {
+    background-color: #1f2937;
+    color: white;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
