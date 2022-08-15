@@ -10,13 +10,25 @@ html, body, nav, footer {
 
 .header-logo {
     color: white;
+    padding-left: 100px;
 }
 
 .header-list {
     margin-left: auto;
-    display: inline-flex;
+    display: flex;
+    color: white;
+    padding-right: 100px;
+    justify-content: center;
+    align-items: center;
 }
 
+.header-list a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 15px;
+    padding: 10px;
+    font-family: 'Roboto', arial;
+}
 
 .img-card {
     display: flex;
