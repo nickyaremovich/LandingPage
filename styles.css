@@ -10,7 +10,7 @@ html, body, nav, footer {
 
 .header-logo {
     color: white;
-    padding-left: 100px;
+    padding-left: 115px;
 }
 
 .header-list {
@@ -29,10 +29,66 @@ html, body, nav, footer {
     padding: 10px;
     font-family: 'Roboto', arial;
 }
+.main {
+    display: flex;
+    background-color: #1f2937;
+}
+.h1 {
+    color: #f9faf8;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-left: 100px;
+    margin: 0;
+    font-family: 'Roboto', arial;
+}
+.p {
+    padding-left: 100px;
+    margin: 40px 0 40px 0;
+    color: #f9faf8;
+    font-size: 15px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+.button1 {
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 4px;
+    width: 100px;
+    height: 25px;
+    margin-left: 100px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.main-left {
+    display: flex;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    margin: 15px;
+
+}
+.main-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    padding: 40px;
+    position: relative;
+    left: 155px;
+}
+.capy {
+    height: 50%;
+    width: 50%;
+}
+.card-title {
+    color: #1f2937;
+    font-size: 36px;
+    display: flex;
+}
 
 .img-card {
     display: flex;
-    border: solid blue 3px;
+    border: solid lightblue 3px;
+    border-radius: 10px;
     
 }
 
