@@ -83,23 +83,27 @@ html, body, nav, footer {
     color: #1f2937;
     font-size: 36px;
     display: flex;
+    justify-content: center;
 }
-
-.img-card {
+.img-container {
     display: flex;
+}
+.img-container img {
+    margin-left: auto;
+    margin-right: auto;
     border: solid lightblue 3px;
-    border-radius: 10px;
-    
+    border-radius: 5px;
+    margin-bottom: 40px;
 }
 
-.quote {
-    display: flex;
+ .quote {
     background-color: #e5e7eb;
 }
-
-
-
-
+.quote-text {
+    font-style: italic;
+    font-size: 36px;
+    padding: 200px;
+}
 
 footer {
     background-color: #1f2937;
